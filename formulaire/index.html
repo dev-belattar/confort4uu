@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="uf-8"/>
+    <meta name="description" content="formulaire"/>
+    <title>formulaire</title>
+    <link rel="stylesheet" href="../formulaire/style.css">
+  
+                
+</head>
+<body >
+    <div class="container">
+        <div class="title">FORMULAIRE</div>
+        <br>
+        <form action="#">
+            <h3>Step 1: votre identite</h3>
+            <div class="user-details">
+                
+                <div class="input-box">
+                    <label for="Nom" class="details">Nom  :</label>
+                    <input type="text"name="Nom" id="Nom" size="25"maxlength="60" placeholder="Entrer votre Nom et prenom"/>
+                </div>
+                <div class="input-box">
+                    <label for="Email" class="details">Email  :</label>
+                    <input type="email"name="Email" id="Email"size="25"maxlength="60" placeholder="Entrer votre email"  />
+                </div>
+                <div class="input-box">
+                    <label for="telephone" class="details">telephone  :</label>
+                    <input type="tel"name="telephone" id="telephone" size="25"maxlength="60" placeholder="Entrer votre telephone"/>
+                </div>
+                <div class="input-box">
+                    <label for="Date de naissance" class="details">Date de naissance  :</label>
+                    <input type="date"name="Date de naissance" id="Date de naissance" size="10"maxlength="60" placeholder="Entrer votre date de naissance"/>
+                </div>
+            </div>
+            <br>
+            <h3>Step2: Adresse de livraison</h3><br>
+            <div class="adresse-de-livraison">
+                <div class="input-box">
+                    <label for="Adresse" class="details">Adress :</label>
+                    <input type="Adresse"name="" id="Adresse" size="40"maxlength="60" placeholder="Entrer votre adresse"   />
+                </div>
+                <div class="input-box">
+                    <label for="code postal" class="details">code postal :</label>
+                    <input type="code postal"name="" id="code postal" size="25"maxlength="60" placeholder="Entrer votre code postal"/>
+                </div>
+                <div class="input-box">
+                    <label for="Pays"    class="details">Pays :</label>
+                    <select name="pays" id="pays" class="pays">
+                    <optgroup label="Europe">
+                        <option value="france">france</option>
+                        <option value="espagne">espagne</option>
+                        <option value="italie">italie</option>
+                        <option value="royaume-uni">royaume-uni</option>
+                    </optgroup>
+                    <optgroup label="Amerique">
+                        <option value="canada">canada</option>
+                        <option value="etat-unis">etat-unis</option>
+                    </optgroup>
+                    <optgroup label="Asie">
+                        <option value="chine">chine</option>
+                        <option value="japon">japon</option>
+                    </optgroup>
+                    </select>
+                </div>
+                
+            </div><br>
+            <h3>Step3: Informations CB</h3><br>
+            <div class="carte">
+                <span class="type">type de carte bancaire:</span>
+                <input type="radio" name="CARTE BANCAIRE" id="cte-1">
+                <input type="radio" name="CARTE BANCAIRE" id="cte-2">
+                <input type="radio" name="CARTE BANCAIRE" id="cte-3">
+
+                
+             
+                <div class="categorie">
+                    
+                  <label for="cte-1">
+                  <span class="cte one"></span>
+                  <img src="Visa.svg.png" >
+                  <span class="CARTE-BANCAIRE">VISA </span>
+                </label>
+                
+                <label for="cte-2">
+                  <span class="cte two"></span>
+                  <img src="Logo-Amex.webp" >
+                  <span class="CARTE-BANCAIRE">AmEx </span>
+                </label>
+                
+                <label for="cte-3">
+                    <span class="cte three"></span>
+                    <img src="Mastercard_new_logo-1200x865.jpg" >
+                    <span class="CARTE-BANCAIRE">Mastercard </span>
+                  </label>
+                  
+              </div>
+               
+            </div>
+            <div class="Informations-CB">
+            
+                
+                <div class="input-box">
+                    <label for="Numero de carte"   class="details">Numero de carte :</label>
+                    <input type="text"name="" id="Numero de carte" size="25"maxlength="60" placeholder="Entrer votre Numero de carte" />
+                </div>
+                <div class="input-box">
+                    <label for="Code du securite"  class="details">Code securite :</label>
+                    <input type="text"name="" id="Code du securite"  size="25"maxlength="60" placeholder="Entrer votre Code securite "/>
+                </div>
+                <div class="input-box">
+                    <label for="Nom du porteur" class="details">Nom du porteur :</label>
+                    <input type="text"name="" id="Nom du porteur" placeholder="Meme nom sur la carte" size="25"maxlength="60" placeholder="Entrer votre Nom du porteur"/>
+                </div>
+                
+            </div>
+          
+            <div class="gender-details">
+            
+                <label class="Gender">Genre :</label>
+                <input type="radio" name="gender" id="dot-1">
+                <input type="radio" name="gender" id="dot-2">
+                
+             
+                <div class="category">
+                  <label for="dot-1">
+                  <span class="dot one"></span>
+                  <span class="gender">Homme</span>
+                </label>
+                <label for="dot-2">
+                  <span class="dot two"></span>
+                  <span class="gender">Femme</span>
+                </label>
+              
+            </div>
+               </div>
+            
+            <div class="button">
+                <input type="button" class="btn" value="J'ACHETE!" >
+            </div>
+            
+        </form>
+    </div>
+    
+
+</body>
